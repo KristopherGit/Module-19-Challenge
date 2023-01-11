@@ -7,15 +7,15 @@
 
 ################################################################################
 # Imports
+from web3.gas_strategies.time_based import medium_gas_price_strategy
+from web3 import middleware
+from web3 import Account
+from bip44 import Wallet
 import os
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
-from bip44 import Wallet
-from web3 import Account
-from web3 import middleware
-from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 ################################################################################
 # Wallet functionality
@@ -78,3 +78,6 @@ def send_transaction(w3, account, to, wage):
 
     # Send the signed transactions
     return w3.eth.sendRawTransaction(signed_tx.rawTransaction)
+
+# wage = in eth denomination
+# value = in wei denomination
