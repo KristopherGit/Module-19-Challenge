@@ -140,4 +140,4 @@ viii.) Further verify the transaction has taken place by navigating to the 'Tran
 
 ### <u>Summary</u>
 
-Therefore, the modifications to the existing PyChain are successful in displaying the corresponding sender/receiver wallet pairing and their associated transfer amounts. The PyChain wallet also correctly displays the applicable 'creator_id', 'prev_hash', 'timestamp' and 'nonce (linearly relationship to PoW difficulty level) within the Pandas Dataframe transaction summary table. 
+In summary, the KryptoJobs2Go application functions as intended: A means to search for fintech professional consultants based on their individual assessment rating/hourly rate, hire them for a specified number of hours and ultimately pay them a specified wage for their services by transforming ETH funds between the customer & fintech professional client's unique ETH wallet addresses. 
